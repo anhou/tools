@@ -1,0 +1,7 @@
+
+```
+# 合并commit
+git rebase -i HEAD~2
+
+pick xxxx -> squash xxxx
+```
