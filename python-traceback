@@ -1,0 +1,10 @@
+import traceback
+
+```
+    stack = traceback.extract_stack()
+    formatted_stack = traceback.format_list(stack)
+    print("调用路径:")
+    for line in formatted_stack:
+        print(line.strip())
+
+```
