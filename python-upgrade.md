@@ -11,14 +11,14 @@ sudo apt update
 sudo apt install python3.10 python3.10-venv python3.10-dev
 python3 --version
 ```
-please don't change OS's default python version 3.8 to 3.10 as below. maybe it will case `apt update` fail.
+please DON'T change OS's default python version 3.8 to 3.10 as below. maybe it will case `apt update` fail.
 
 ```
-ls -la /usr/bin/python3
-rm /usr/bin/python3
-ln -s python3.10 /usr/bin/python3
-ln -s python3.10-config /usr/bin/python3-config
-ln -s python3 /usr/bin/python
+#ls -la /usr/bin/python3
+#rm /usr/bin/python3
+#ln -s python3.10 /usr/bin/python3
+#ln -s python3.10-config /usr/bin/python3-config
+#ln -s python3 /usr/bin/python
 ```
 ## Create Virtual environment with virutalenv
 * After install 3.10(don't need set it to be default)
