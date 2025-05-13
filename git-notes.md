@@ -1,3 +1,8 @@
+## Clone后Update Submodules
+```
+git submodule update --init --recursive
+```
+
 ## 合并commit
 ```
 # 合并commit
