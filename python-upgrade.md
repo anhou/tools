@@ -24,9 +24,10 @@ ln -s python3 /usr/bin/python
 * After install 3.10(don't need set it to be default)
 ```
 # after below commands, myenv's python, python3, pip, pip3 will all be for 3.10
+curl -sS https://bootstrap.pypa.io/get-pip.py | python3.10
+python3.10 -m pip install virtualenv
 python3.10 -m virtualenv myenv
 source myenv/bin/activate
-curl -sS https://bootstrap.pypa.io/get-pip.py | python3.10
 
 # NOTE: Don't need below commands
 #python3.10 -m pip --version
