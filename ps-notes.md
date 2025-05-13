@@ -6,5 +6,5 @@ sudo pkill -g <PGID>
 
 ```
 ps a -o pid,pgid,ppid,command
-sudo pkill -g <PPID>
+sudo kill -9 <PPID>
 ```
