@@ -100,6 +100,7 @@ sudo apt-get update
 sudo apt install libnccl2=2.25.1-1+cuda12.4 libnccl-dev=2.25.1-1+cuda12.4
 ```
 * `find /user -name "*nccl*"` to find the libnccl's version to check nccl's version
+  * for torch's nccl, it should install nvidia-nccl-cu12==2.25.1
 
 ## Update cuDNN
 * Search 'cuDNN download' in google. and select the version
