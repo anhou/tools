@@ -15,3 +15,10 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python3 vllm/benchmarks/benchmark_throughput.py --b
 ```
 
 Issue: https://blog.csdn.net/kazoos/article/details/135014114
+
+
+## Debug
+* print inside the model  ref: https://github.com/vllm-project/vllm/issues/16316
+```
+export TORCHDYNAMO_DISABLE=1
+```
