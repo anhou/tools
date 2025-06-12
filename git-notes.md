@@ -1,6 +1,9 @@
 ## Clone后Update Submodules
 ```
 git submodule update --init --recursive
+
+# 查看每个submodule的commit
+git submodule status
 ```
 
 ## 合并commit
